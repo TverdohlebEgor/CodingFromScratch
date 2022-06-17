@@ -68,7 +68,51 @@ body{
     left: 15%;
     padding: 5%;
     color: white;
-    font-size: 140%;
-    line-height: 150%;
+    font-size: 160%;
+    line-height: 160%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.imgbox {
+    display: grid;
+    height: 100%;
+    padding: 5%;
+    text-shadow: #101010;
+}
+.center-fit {
+    max-width: 90%;
+    max-height: 90vh;
+    margin: auto;
+}
+
+.page-title {
+    position: relative;
+    left: 7.5%;
+    color: #ff9500;
+    padding: 2%;
+    font-size: clamp(1.75vw, 2vw, 2.25vw);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.chapter-title {
+    padding: 2% 2% 2% 0%;
+    color: #ffb700;
+    font-size: clamp(1.2vw, 1.4vw, 1.6vw);
+}
+
+.important-text {
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.comming-soon {
+    display: block;
+    padding: 7% 20%;
+    border-bottom: #101010;
+    color: white;
+    font-size: clamp(1.25vw, 1.5vw, 1.75vw);
+    position: relative;
     font-family: 'Times New Roman', Times, serif;
 }
