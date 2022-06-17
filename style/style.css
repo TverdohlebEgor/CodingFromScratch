@@ -68,7 +68,7 @@ body{
     left: 15%;
     padding: 5%;
     color: white;
-    font-size: 160%;
+    font-size: clamp(1.75vw, 2vw, 2.15vw);
     line-height: 160%;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -98,7 +98,7 @@ body{
 .chapter-title {
     padding: 2% 2% 2% 0%;
     color: #ffb700;
-    font-size: clamp(1.2vw, 1.4vw, 1.6vw);
+    font-size: clamp(1.6vw, 2vw, 2.4vw);
 }
 
 .important-text {
