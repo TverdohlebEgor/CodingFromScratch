@@ -96,7 +96,7 @@ body{
     left: 7.5%;
     color: #ff9500;
     padding: 2%;
-    font-size: clamp(1.75vw, 2.5em, 3vw);
+    font-size: clamp(1.75vw, 2.3em, 2.8vw);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
